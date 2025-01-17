@@ -8,6 +8,12 @@ print("Escribe un programa que imprima tu nombre y tu ciudad en líneas separada
 
 ### Completa aquí
 
+name = "albani"
+city = "Bogota"
+
+print(name)
+print(city)
+
 print("--------------")
 
 print("\nEjercicio 2: Muestra los tipos de datos de las siguientes variables:")
@@ -20,13 +26,22 @@ e = None
 
 ### Completa aquí
 
-print("--------------")
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
+# print("--------------")
 
 print("\nEjercicio 3: Casting de tipos")
 print("Convierte la cadena \"12345\" a un entero y luego a un float.")
 print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
 
 ### Completa aquí
+print(int("12345"))
+print(float("12345"))
+print(int(3.99))
 
 print("--------------")
 
@@ -34,9 +49,14 @@ print("\nEjercicio 4: Variables")
 print("Crea variables para tu nombre, edad y altura.")
 print("Usa f-strings para imprimir una presentación.")
 
-# "Hola! Me llamo midudev y tengo 39 años, mido 1.70 metros"
+# # "Hola! Me llamo midudev y tengo 39 años, mido 1.70 metros"
 
-### Completa aquí
+# ### Completa aquí
+
+age = 23
+height = 1.58
+
+print(f"Hola! Me llamo {name} y tengo {age} años, mido {height} metros")
 
 print("--------------")
 
@@ -45,3 +65,11 @@ print("1. Crea una variable con el número PI (sin asignar una variable)")
 print("2. Redondea el número con round()")
 print("3. Haz la división entera entre el número que te salió y el número 2")
 print("4. El resultado debería ser 1")
+
+PI = 3.1415
+pi_redondeado = round(PI)
+
+division = pi_redondeado // 2
+
+print(division)
+print(division == 1 )
