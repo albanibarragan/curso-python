@@ -54,6 +54,16 @@ Mira los cursos y participa en vivo en
 |**3. Próximamente** (Miércoles 29 de enero)  |  | |
 
 
+## Instalación
+
+1. **Instalar Python:**
+   - Descarga la última versión de Python desde [python.org](https://www.python.org/downloads/).
+   - Sigue las instrucciones de instalación para tu sistema operativo.
+
+2. **Instalar un editor de código:**
+   - Se recomienda usar **Visual Studio Code** o **PyCharm** como editor de código para facilitar la escritura de programas en Python.
+
+---
 
 
 ## 💻 ¿Quieres practicar en local?
