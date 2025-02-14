@@ -23,4 +23,6 @@ elif operator == "/":
         resultado = num1 / num2
 else:
     print("Operación no válida.")
-    
+
+
+print(resultado)
