@@ -5,13 +5,11 @@
 # 5! = 5 x 4 x 3 x 2 x 1 = 120.
 print("\nEjercicio 3:")
 
-number = int(input("Introduce un número entero positivo: "))
-factorial = 1
+numero = int(input("Ingrese un numero positivo: "))
 contador = 1
+factorial = 1
 
-while contador <= number:
+while contador <= numero:
     factorial *= contador
     contador += 1
-
-print(f"El factorial de {number} es: {factorial}")
-
+print(f'El factorial del numero {numero} es {factorial}')

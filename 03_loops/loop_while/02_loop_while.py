@@ -2,12 +2,13 @@
 # Calcula la suma de los números pares entre 1 y 20 (inclusive) usando un bucle while.
 print("\nEjercicio 2:")
 
-contador = 1
+contador = 0
 suma = 0
 
-while(contador <= 20):
+while contador <= 20:
     if contador % 2 == 0:
-        suma += contador
+        print(contador)
     contador += 1
+    suma += contador
 
-print("La suma de los numeros pares es: ", suma)
+print('La suma de los numeros impares: ', suma)
